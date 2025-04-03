@@ -45,3 +45,7 @@ adb shell pm list packages | findstr jdb
 ```bash
 adb shell pm list packages | grep jdb
 ```
+
+---
+
+➡️ [Next → Step 3: Get APK Paths](step-03-get-apk-paths.md)

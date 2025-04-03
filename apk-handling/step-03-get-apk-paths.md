@@ -19,3 +19,7 @@ package:/data/app/.../jdb_lo.apk
 package:/data/app/.../jdb_x86_64.apk  
 package:/data/app/.../jdb_xxhdpi.apk  
 ```
+
+---
+
+➡️ [Next → Step 4: Pull APKs](step-04-pull-apks.md)

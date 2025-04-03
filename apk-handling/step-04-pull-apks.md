@@ -24,3 +24,7 @@ adb pull /data/app/.../jdb_base.apk ~/Desktop/apk/jdb_base.apk
 ```
 
 Repeat for all APKs.
+
+---
+
+➡️ [Next → Step 5: Install APKs](step-05-install.md)
