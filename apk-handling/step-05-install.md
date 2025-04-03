@@ -1,6 +1,6 @@
-<!-- Step 4: How to reinstall all APKs using adb install-multiple -->
+<!-- Step 5: How to reinstall all APKs using adb install-multiple -->
 
-# 📲 Step 4: Reinstall the APKs
+# 📲 Step 5: Reinstall the APKs
 
 Use `adb install-multiple` to reinstall all split APKs.
 
@@ -55,3 +55,7 @@ Success
 ```
 
 App will appear on the emulator 🎉
+
+---
+
+➡️ [Next → Troubleshooting](troubleshooting.md)

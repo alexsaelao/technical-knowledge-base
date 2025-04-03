@@ -1,6 +1,6 @@
-<!-- Step 3: How to extract/pull APK files from emulator -->
+<!-- Step 4: How to extract/pull APK files from emulator -->
 
-# 📥 Step 3: Pull APK Files
+# 📥 Step 4: Pull APK Files
 
 Use `adb pull` to copy APK files from emulator to your PC.
 
