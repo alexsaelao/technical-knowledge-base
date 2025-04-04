@@ -15,12 +15,12 @@ Use `adb pull` to copy APK files from emulator to your PC.
 
 **Windows Example**:
 ```bash
-adb pull /data/app/.../jdb_base.apk C:\Users\Advice\Desktop\apk\jdb_base.apk
+adb pull /data/app/.../sample_base.apk C:\Users\Advice\Desktop\apk\sample_base.apk
 ```
 
 **macOS Example**:
 ```bash
-adb pull /data/app/.../jdb_base.apk ~/Desktop/apk/jdb_base.apk
+adb pull /data/app/.../sample_base.apk ~/Desktop/apk/sample_base.apk
 ```
 
 Repeat for all APKs.

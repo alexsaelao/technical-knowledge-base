@@ -20,7 +20,7 @@ Common issues and fixes when dealing with split APKs.
 
 ```sh
 adb: failed to finalize session
-Failure [INSTALL_FAILED_MISSING_SPLIT: Missing split for com.jdb.mbanking]
+Failure [INSTALL_FAILED_MISSING_SPLIT: Missing split for com.sample]
 ```
 
 ### ✅ Cause:
@@ -31,5 +31,5 @@ Use `adb install-multiple` and make sure you include **all required APKs** (base
 
 **Example:**
 ```sh
-adb install-multiple jdb_base.apk jdb_en.apk jdb_lo.apk jdb_xxhdpi.apk jdb_x86_64.apk
+adb install-multiple sample_base.apk sample_en.apk sample_lo.apk sample_xxhdpi.apk sample_x86_64.apk
 ```

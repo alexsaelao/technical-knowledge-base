@@ -38,12 +38,12 @@ adb shell pm list packages
 
 **Windows**:
 ```bash
-adb shell pm list packages | findstr jdb
+adb shell pm list packages | findstr <PackageName>
 ```
 
 **macOS**:
 ```bash
-adb shell pm list packages | grep jdb
+adb shell pm list packages | grep <PackageName>
 ```
 
 ---

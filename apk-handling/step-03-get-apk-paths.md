@@ -7,17 +7,17 @@ Use `adb shell pm path <package>` to list APK file locations.
 ---
 
 ```bash
-adb shell pm path com.jdb.mbanking
+adb shell pm path com.sample
 ```
 
 Sample output:
 
 ```
-package:/data/app/.../jdb_base.apk  
-package:/data/app/.../jdb_en.apk  
-package:/data/app/.../jdb_lo.apk  
-package:/data/app/.../jdb_x86_64.apk  
-package:/data/app/.../jdb_xxhdpi.apk  
+package:/data/app/.../sample_base.apk  
+package:/data/app/.../sample_en.apk  
+package:/data/app/.../sample_lo.apk  
+package:/data/app/.../sample_x86_64.apk  
+package:/data/app/.../sample_xxhdpi.apk  
 ```
 
 ---

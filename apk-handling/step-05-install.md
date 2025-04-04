@@ -22,7 +22,7 @@ cd ~/Desktop/apk
 
 **Step 2 – Run install-multiple**
 ```bash
-adb install-multiple jdb_en.apk jdb_lo.apk jdb_xxhdpi.apk jdb_x86_64.apk jdb_base.apk
+adb install-multiple sample_en.apk sample_lo.apk sample_xxhdpi.apk sample_x86_64.apk sample_base.apk
 ```
 
 ---
@@ -34,13 +34,13 @@ adb install-multiple jdb_en.apk jdb_lo.apk jdb_xxhdpi.apk jdb_x86_64.apk jdb_bas
 **Windows**:
 ```bash
 cd C:\Users\<YourUsername>\AppData\Local\Android\Sdk\platform-tools
-adb install-multiple C:\Users\Advice\Desktop\apk\jdb_en.apk C:\Users\Advice\Desktop\apk\jdb_lo.apk C:\Users\Advice\Desktop\apk\jdb_xxhdpi.apk C:\Users\Advice\Desktop\apk\jdb_x86_64.apk C:\Users\Advice\Desktop\apk\jdb_base.apk
+adb install-multiple C:\Users\Advice\Desktop\apk\sample_en.apk C:\Users\Advice\Desktop\apk\sample_lo.apk C:\Users\Advice\Desktop\apk\sample_xxhdpi.apk C:\Users\Advice\Desktop\apk\sample_x86_64.apk C:\Users\Advice\Desktop\apk\sample_base.apk
 ```
 
 **macOS**:
 ```bash
 cd ~/Library/Android/sdk/platform-tools
-adb install-multiple ~/Desktop/apk/jdb_en.apk ~/Desktop/apk/jdb_lo.apk ~/Desktop/apk/jdb_xxhdpi.apk ~/Desktop/apk/jdb_x86_64.apk ~/Desktop/apk/jdb_base.apk
+adb install-multiple ~/Desktop/apk/sample_en.apk ~/Desktop/apk/sample_lo.apk ~/Desktop/apk/sample_xxhdpi.apk ~/Desktop/apk/sample_x86_64.apk ~/Desktop/apk/sample_base.apk
 ```
 
 ---
