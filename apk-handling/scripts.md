@@ -23,7 +23,7 @@ chmod +x extract_apk.sh
 
 If no keyword is passed, it will list all packages.
 
-📥 [Download extract_apk.sh](scripts/extract_apk.sh)
+📥 [Download extract_apk.sh](scripts/extract_apk.sh?raw=true)
 
 ---
 
@@ -42,7 +42,7 @@ extract_apk.bat com.example
 
 If no keyword is passed, it lists all installed packages.
 
-📥 [Download extract_apk.bat](scripts/extract_apk.bat)
+📥 [Download extract_apk.bat](scripts/extract_apk.bat?raw=true)
 
 ---
 
