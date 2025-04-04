@@ -35,5 +35,5 @@ This section walks you through how to extract an app installed on your Android e
 
 ## ⚙️ Extras
 
-- [Script Automation: Extract APKs](scripts.md)  
-  Use `.sh` and `.bat` files to automate pulling APKs from the emulator.
+- [Script Automation: Extract Install Split APKs](scripts.md)  
+  Use `.sh` and `.bat` files to automate pulling APKs from the emulator and Install extracted split APKs automatically with device-type filtering and support for both platforms.

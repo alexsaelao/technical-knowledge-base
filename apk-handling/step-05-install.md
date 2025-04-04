@@ -6,6 +6,13 @@ Use `adb install-multiple` to reinstall all split APKs.
 
 ---
 
+## ❗ Important: Emulator vs Real Device
+
+- ✅ `split_config.x86_64.apk` should be included **only on emulators**
+- 🚫 Do **not** include `split_config.x86_64.apk` when installing on a **real physical device**
+
+---
+
 ### ✅ Option 1: Run From Inside APK Folder
 
 **Step 1 – Change directory**

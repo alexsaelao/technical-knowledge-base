@@ -1,65 +1,115 @@
-<!-- Guide for using helper scripts to automate APK extraction -->
+<!-- Guide for using helper scripts to automate APK extraction and installation -->
 
-# ⚙️ Script Automation: Extract APKs
+# ⚙️ Script Automation: Extract & Install APKs
 
-Use these helper scripts to automate pulling split APKs from your Android emulator or device.  
-They also help you **search for package names**, then **extract and save APK files** neatly into a folder.
+These helper scripts simplify the process of working with apps installed on an Android device or emulator by automating:
 
----
-
-## ✅ Requirements
-
-- Emulator or Android device must be connected and running
-- ADB must be working (`adb devices`)
-- You must know or search the correct package name
+- Extracting base + split APKs
+- Installing APKs conditionally based on emulator/real device
+- Filtering unsupported APKs like `x86_64` splits
+- Avoiding manual typing for repeated commands
 
 ---
 
-## 🐧 macOS/Linux: `extract_apk.sh`
+## 📁 Folder Assumption
 
-### 📦 What it does:
-- Searches installed packages (optionally with a keyword)
-- Prompts for a package name
-- Pulls all `.apk` files into `output_apks/<package_name>/`
+Both extract and install scripts assume you are working with this structure:
 
-### 🔧 How to use:
+```
+output_apks/
+├── com.example.app/
+│   ├── base.apk
+│   ├── split_config.en.apk
+│   ├── split_config.xxhdpi.apk
+│   └── split_config.x86_64.apk
+```
+
+> Folders like `com.example.app` are created per package after extraction.
+
+---
+
+## 📤 Extract APKs from Emulator
+
+### 🐧 macOS/Linux: `extract_apk.sh`
+
+#### 📦 What it does:
+- Accepts optional keyword to filter installed packages
+- Lists matching packages from the device
+- Pulls all APKs for a selected package to `output_apks/<package>/`
+
+#### 🔧 Usage:
 
 ```bash
 chmod +x extract_apk.sh
-./extract_apk.sh com.example
+./extract_apk.sh [search_keyword]
 ```
-
-If no keyword is passed, it will list all packages.
 
 📥 [Download extract_apk.sh](https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/scripts/extract_apk.sh)
 
 ---
 
-## 🪟 Windows: `extract_apk.bat`
+### 🪟 Windows: `extract_apk.bat`
 
-### 📦 What it does:
-- Searches for packages using a keyword (optional argument)
-- Prompts for a package name
-- Pulls all `.apk` files into `output_apks\<package_name>\`
+#### 📦 What it does:
+- Searches installed packages using an optional argument
+- Prompts for package name
+- Extracts APK files to `output_apks\<package>\`
 
-### 🔧 How to use:
+#### 🔧 Usage:
 
 ```bat
-extract_apk.bat com.example
+extract_apk.bat [search_keyword]
 ```
-
-If no keyword is passed, it lists all installed packages.
 
 📥 [Download extract_apk.bat](https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/scripts/extract_apk.bat)
 
 ---
 
-## 📁 Output
+## 📥 Install Extracted APKs
 
-All extracted APK files will be saved in:
+### 🐧 macOS/Linux: `install_apks.sh`
 
+#### 📦 What it does:
+- Lists or filters extracted APK folders
+- Exits early if nothing is found
+- Detects whether device is emulator or real
+- Filters `split_config.x86_64.apk` if real device
+- Installs using `adb install-multiple`
+
+#### 🔧 Usage:
+
+```bash
+chmod +x install_apks.sh
+./install_apks.sh [search_keyword]
 ```
-output_apks/<your.package.name>/
+
+📥 [Download install_apks.sh](https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/scripts/install_apks.sh)
+
+---
+
+### 🪟 Windows: `install_apks.bat`
+
+#### 📦 What it does:
+- Lists or filters extracted APK folders
+- Stops early if none found
+- Detects emulator vs real device
+- Dynamically builds `adb install-multiple` command
+- Filters `split_config.x86_64.apk` for real devices
+
+#### 🔧 Usage:
+
+```bat
+install_apks.bat [search_keyword]
 ```
 
-The folder will be created automatically in the same directory where you run the script.
+📥 [Download install_apks.bat](https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/scripts/install_apks.bat)
+
+---
+
+## ✅ Requirements
+
+- ADB installed and available in your system `PATH`
+- Emulator or real device connected
+- `output_apks/` directory populated by the extract scripts
+- Only one device connected when running install script
+
