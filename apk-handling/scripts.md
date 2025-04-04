@@ -67,7 +67,7 @@ extract_apk.bat [search_keyword]
 
 ## 📥 Install Extracted APKs
 
-### 🐧 macOS/Linux: `install_apks.sh`
+### 🐧 macOS/Linux: `install_apk.sh`
 
 #### 📦 What it does:
 - Lists or filters extracted APK folders
@@ -79,15 +79,15 @@ extract_apk.bat [search_keyword]
 #### 🔧 Usage:
 
 ```bash
-chmod +x install_apks.sh
-./install_apks.sh [search_keyword]
+chmod +x install_apk.sh
+./install_apk.sh [search_keyword]
 ```
 
-📥 [Download install_apks.sh](https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/scripts/install_apks.sh)
+📥 [Download install_apk.sh](https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/scripts/install_apk.sh)
 
 ---
 
-### 🪟 Windows: `install_apks.bat`
+### 🪟 Windows: `install_apk.bat`
 
 #### 📦 What it does:
 - Lists or filters extracted APK folders
@@ -99,10 +99,10 @@ chmod +x install_apks.sh
 #### 🔧 Usage:
 
 ```bat
-install_apks.bat [search_keyword]
+install_apk.bat [search_keyword]
 ```
 
-📥 [Download install_apks.bat](https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/scripts/install_apks.bat)
+📥 [Download install_apk.bat](https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/scripts/install_apk.bat)
 
 ---
 
