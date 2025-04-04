@@ -9,7 +9,7 @@ Use `adb pull` to copy APK files from emulator to your PC.
 ### 1. Create a Folder
 
 - **Windows**: `C:\Users\Advice\Desktop\apk`  
-- **macOS**: `~/Desktop/apk`
+- **macOS/Linux**: `~/Desktop/apk`
 
 ### 2. Pull APKs One-by-One
 
@@ -18,7 +18,7 @@ Use `adb pull` to copy APK files from emulator to your PC.
 adb pull /data/app/.../sample_base.apk C:\Users\Advice\Desktop\apk\sample_base.apk
 ```
 
-**macOS Example**:
+**macOS/Linux Example**:
 ```bash
 adb pull /data/app/.../sample_base.apk ~/Desktop/apk/sample_base.apk
 ```

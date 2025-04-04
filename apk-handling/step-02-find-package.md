@@ -12,7 +12,7 @@ Instructions to list installed packages and filter by keyword.
   Press `Win + R` → type `cmd` → Enter  
   or use Android Studio > Terminal
 
-- **macOS**:  
+- **macOS/Linux**:  
   Press `Cmd + Space` → type `Terminal` → Enter  
   or use Android Studio > Terminal
 
@@ -23,7 +23,7 @@ Instructions to list installed packages and filter by keyword.
 cd C:\Users\<YourUsername>\AppData\Local\Android\Sdk\platform-tools
 ```
 
-**macOS**:
+**macOS/Linux**:
 ```bash
 cd ~/Library/Android/sdk/platform-tools
 ```
@@ -41,7 +41,7 @@ adb shell pm list packages
 adb shell pm list packages | findstr <PackageName>
 ```
 
-**macOS**:
+**macOS/Linux**:
 ```bash
 adb shell pm list packages | grep <PackageName>
 ```

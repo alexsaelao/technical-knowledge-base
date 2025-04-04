@@ -15,7 +15,7 @@ Use `adb install-multiple` to reinstall all split APKs.
 cd C:\Users\Advice\Desktop\apk
 ```
 
-**macOS**:
+**macOS/Linux**:
 ```bash
 cd ~/Desktop/apk
 ```
@@ -37,7 +37,7 @@ cd C:\Users\<YourUsername>\AppData\Local\Android\Sdk\platform-tools
 adb install-multiple C:\Users\Advice\Desktop\apk\sample_en.apk C:\Users\Advice\Desktop\apk\sample_lo.apk C:\Users\Advice\Desktop\apk\sample_xxhdpi.apk C:\Users\Advice\Desktop\apk\sample_x86_64.apk C:\Users\Advice\Desktop\apk\sample_base.apk
 ```
 
-**macOS**:
+**macOS/Linux**:
 ```bash
 cd ~/Library/Android/sdk/platform-tools
 adb install-multiple ~/Desktop/apk/sample_en.apk ~/Desktop/apk/sample_lo.apk ~/Desktop/apk/sample_xxhdpi.apk ~/Desktop/apk/sample_x86_64.apk ~/Desktop/apk/sample_base.apk

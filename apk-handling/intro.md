@@ -7,7 +7,7 @@ This section walks you through how to extract an app installed on your Android e
 ---
 
 ## 📱 Complete Guide: Extract and Install Split APKs from Android Emulator
-> ✅ Supports both **Windows** and **macOS**
+> ✅ Supports both **Windows** and **macOS/Linux**
 
 ---
 
