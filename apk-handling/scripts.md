@@ -7,6 +7,14 @@ They also help you **search for package names**, then **extract and save APK fil
 
 ---
 
+## ✅ Requirements
+
+- Emulator or Android device must be connected and running
+- ADB must be working (`adb devices`)
+- You must know or search the correct package name
+
+---
+
 ## 🐧 macOS/Linux: `extract_apk.sh`
 
 ### 📦 What it does:
@@ -55,11 +63,3 @@ output_apks/<your.package.name>/
 ```
 
 The folder will be created automatically in the same directory where you run the script.
-
----
-
-## ✅ Requirements
-
-- Emulator or Android device must be connected and running
-- ADB must be working (`adb devices`)
-- You must know or search the correct package name
