@@ -30,3 +30,10 @@ This section walks you through how to extract an app installed on your Android e
 
 - [🚑 Troubleshooting](troubleshooting.md)  
   Solutions for common issues like missing files, install errors, or `adb` problems.
+
+---
+
+## ⚙️ Extras
+
+- [Script Automation: Extract APKs](scripts.md)  
+  Use `.sh` and `.bat` files to automate pulling APKs from the emulator.
