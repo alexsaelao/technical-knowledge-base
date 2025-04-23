@@ -11,7 +11,7 @@ This section walks you through how to extract an app installed on your Android e
 
 ---
 
-## 📋 Steps Overview
+### 📋 Steps Overview
 
 - [Step 1: Prerequisites](step-01-prerequisites.md)  
   Set up your tools and environment before starting.
@@ -37,3 +37,9 @@ This section walks you through how to extract an app installed on your Android e
 
 - [Script Automation: Extract & Install Split APKs](scripts.md)  
   Use `.sh` and `.bat` files to automate pulling APKs from the emulator and Install extracted split APKs automatically with device-type filtering and support for both platforms.
+
+- [Manual Merge & Sign Split APKs](manual-merge-sign.md)  
+  Step-by-step instructions to manually merge split APKs, sign them with a keystore, and install to your emulator or device.
+  
+- [Reverse Engineer: Smali Edits & Rebuild APK](reverse-smali-rebuild.md)  
+  Learn how to decompile APKs, modify Smali code, and rebuild + re-sign the APK for testing or patching.
