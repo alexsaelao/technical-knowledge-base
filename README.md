@@ -6,4 +6,4 @@ A centralized documentation space containing notes, guides, and how-tos across v
 
 ## 📦 Topics
 
-- [📦 APK Extraction & Installation Guide](apk-handling/intro.md)
+- [📦 APK Handling & Reverse Engineering Guide](apk-handling/intro.md)
