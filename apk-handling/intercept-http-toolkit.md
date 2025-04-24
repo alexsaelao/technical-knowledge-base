@@ -6,7 +6,7 @@ This guide walks you through intercepting API traffic from an Android applicatio
 
 ## 🧰 Requirements
 
-- [Install HTTP Toolkit](https://httptoolkit.com/)
+- HTTP Toolkit ([Download HTTP Toolkit](https://httptoolkit.com/))
 - Create and run an emulator (image **without Google Play**)
 - Ensure `adb` is installed and running properly
 - The target application is already installed in the emulator
