@@ -35,8 +35,8 @@ To begin working with your APK using APKLab in VS Code:
 - Click OK to decompile
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px; margin: 0 auto;">
-    <img src="https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/reverse-smali-rebuild/step1.0.png" alt="QR Code with Logo" width="300">
-    <img src="https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/reverse-smali-rebuild/step1.1.png" alt="QR Code without Logo" width="300">
+    <img src="https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/reverse-smali-rebuild/step1.0.png" alt="QR Code with Logo" width="400">
+    <img src="https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/reverse-smali-rebuild/step1.1.png" alt="QR Code without Logo" width="400">
 </div>
 
 ---
@@ -72,8 +72,8 @@ Once your Smali modifications are complete:
 > 🛠️ APKLab will compile all resources and Smali code into a new APK in the `dist/` folder.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px; margin: 0 auto;">
-    <img src="https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/reverse-smali-rebuild/step3.0.png" alt="QR Code with Logo" width="300">
-    <img src="https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/reverse-smali-rebuild/step3.1.png" alt="QR Code without Logo" width="300">
+    <img src="https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/reverse-smali-rebuild/step3.0.png" alt="QR Code with Logo" width="400">
+    <img src="https://raw.githubusercontent.com/alexsaelao/technical-knowledge-base/main/apk-handling/reverse-smali-rebuild/step3.1.png" alt="QR Code without Logo" width="400">
 </div>
 
 ---
