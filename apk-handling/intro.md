@@ -43,3 +43,6 @@ This section walks you through how to extract an app installed on your Android e
   
 - [Reverse Engineer: Smali Edits & Rebuild APK](reverse-smali-rebuild.md)  
   Learn how to decompile APKs, modify Smali code, and rebuild + re-sign the APK for testing or patching.
+
+- [Intercept API Traffic using HTTP Toolkit](intercept-http-toolkit.md)  
+  Guide for installing certificates on a rooted emulator, bypassing SSL pinning, and capturing API traffic using HTTP Toolkit.
